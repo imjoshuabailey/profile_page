@@ -3,12 +3,13 @@ var express = require('express');
 var app = express();
 app.set('view engine', 'ejs');
 
-app.get('/', function(request, response) {
-	response.send('Hello World');
-});
+
 app.get('/home', function(request, response) {
 	app.use(express.static('public'));
 	response.render('index');
+});
+app.get('/', function(request, response) {
+	response.send('Hello World');
 });
 
 
