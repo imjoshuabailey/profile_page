@@ -1,0 +1,241 @@
+body {
+	background: linear-gradient(#94aed3, #6a6a6a);
+	font-family: "Roboto condensed", Abel, "Sans Serif";
+	max-width: 100%;
+
+}
+
+/*navigation bar styling*/
+.navbar {
+	background-color: #94aed3;
+	top: 0%;
+	max-width: 100%;
+	z-index: 9999;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #94aed3;
+    color: #333;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #94aed3;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #94aed3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+  width: 100%;
+    background-color: #94aed3;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content button:hover {
+  text-decoration: none;
+  background-color: #ddd;
+}
+
+.show {
+	display:block;
+}
+
+
+/*title styling*/
+.title {
+	float: right;
+	font-size: 30px;
+	margin-right: 1%;
+	color: #333;
+	margin-top: 11px;
+}
+/*portfolio styling*/
+.portfolio {
+	background:url("../images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	Background-attachment: fixed;
+
+}
+/*personal image*/
+.profileimg {
+	width: 20%;
+	border-radius: 2%;
+	margin: 9% 0% 25% 10%;
+  }
+
+/*introduction text*/
+.introduction {
+	line-height: 0.8;
+	float: right;
+	margin: 33% 5% 0% 0%;
+	color: #ccc;
+}
+/*"greetings" font style*/
+p.hello{
+	font-size: 36px;
+}
+/*about me font style*/
+p.info{
+	font-size: 24px;
+}
+.work-title {
+	font-size: 280%;
+	padding: 0% 0% 5%;
+}
+
+/*adjust for mobile*/
+@media screen and (max-width: 600px) {
+  .work-title {
+    font-size: 200%;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .profileimg{
+    margin-top: 15%;
+  }
+ /*greetings align mobile*/
+	.introduction {
+  		margin: 39% 4% 0% 0%;
+	}
+  /*greeting align for mobile*/
+  	p.hello {
+    	font-size: 20px;
+  	}
+  /*about me align for mobile*/
+  	p.info {
+    	font-size: 15px;
+  	}
+  /*my face align for mobile*/
+	img {
+  		margin: 16% 0% 26% 10%;
+  		border-radius: 3%;
+  	}
+  /*portfolio styling for mobile*/
+  	.portfolio {
+  		background-size: 115%;
+	}
+  /*contact text align for mobile*/
+  	.social {
+  		margin: 15% 0% 20%;
+	}
+  	.contact {
+  		background: linear-gradient(#747a83, #94aed3);
+
+	}
+}
+@media screen and (max-width: 400px) {
+  .profileimg {
+    margin: 20% 0% 25% 5%;
+  }
+  p.info {
+    	font-size: 12px;
+  	}
+}
+
+/*work section styling*/
+.work {
+	padding: 5% 0% 0% 0%;
+
+}
+
+
+#img-spacing {
+	margin: 2% 0% 20% 0%;
+}
+#placeholder2 {
+	float: right;
+}
+.caption {
+	text-align: center;
+	margin-top: -15%;
+}
+
+/*contact text styling*/
+.social {
+	font-size: 20px;
+	padding: 0% 30% 0%;
+}
+/*contact section styling*/
+.contact {
+	padding-top: 10%;
+	background: linear-gradient(#71757b, #94aed3);
+}
+/*media button styling*/
+.name{
+	margin: 3% 0% 1% 0%;
+}
+.email {
+	margin: 0% 0% 1% 0%;
+}
+.message {
+	padding: 7px;
+	margin: 0% 2% 0% 0%;
+}
+.submit {
+	margin: 0px 0px 0px 50px;
+}
+.fa {
+    padding: 10px;
+    margin: 10% 0% 2%;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+/*media buttons hover styling*/
+.fa:hover {
+    opacity: 0.7;
+	text-decoration: none;
+	color: black;
+}
+/*Facebook link styling*/
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+/*Twitter link styling*/
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/*GitHub link styling*/
+.fa-github {
+	background-color: #800080;
+	color: white;
+}
+
+/*copyright*/
+.copy-right {
+	font-size: 18px;
+	margin-bottom: -1%;
+	padding: 2% 0% 2% 0%;
+	background-color: #8da4c3;
+}

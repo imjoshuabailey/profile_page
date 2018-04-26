@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lag="en">
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel|Open+Sans|Roboto+Condensed">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="assets/css/main.css">
+
+	</head>
+
+	<body>
+		<script src="assets/js/profile.js"></script>
+
+	<!--navbar html and buttons linked to javascript-->
+  		<div class="col-sm-12">
+			<nav class="navbar navbar-fixed-top" id="mynavbar">
+	   			<h3 class="title"><strong>Joshua Bailey</strong></h3>
+
+	   			<div class="dropdown">
+		 			<button onclick="menuOpen()" class="dropbtn">&#9776;</button>
+		 			<div id="myDropdown" class="dropdown-content">
+		   				<button onclick="scrollHome()">Home</button>
+		   				<button onclick="scrollWork()" href="#">Work</button>
+		   				<button onclick="scrollContact()" href="#">Contact</button>
+		 			</div>
+	   			</div>
+			</nav>
+		</div>
+
+
+		<div class="portfolio" id="home">
+			<img class="profileimg"src="assets/images/profilepic.jpg" alt="Joshua Bailey"><div class="introduction"><p class="hello">Greetings,</p><p class="info">I am Josh, a junior developer  </p><p class="info">working to be a full stack developer.</p> </div>
+
+		</div>
+
+
+
+	<!--work section html and text-->
+		<div class="work" id="work">
+
+			<p class="work-title text-center"> Featured Projects</p>
+			<div class="container">
+
+				<div class="col-sm-6">
+					<div class="thumbnail">
+						<a href="https://codepen.io/imjoshuabailey/full/xWLZjW/" target="_blank">
+							<img  id="img-spacing" src="assets/images/placeholder.jpg" alt="Weather App" style="width: 100%"><div class="caption"><p>A simple weather app</p></div>
+						</a>
+					</div>
+				</div>
+
+
+				<div class="col-sm-6 col-sm-offset-3 centered">
+					<div class="thumbnail">
+						<a href="https://codepen.io/imjoshuabailey/full/ppaaaP/" target="_blank">
+							<img id="img-spacing" src="assets/images/karlbenz.jpg" alt="Karl Benz and his wife" style="width: 100%"><div class="caption">A tribute to Karl Benz</div>
+						</a>
+					</div>
+				</div>
+
+
+				<div class="col-sm-6 col-sm-offset-6">
+					<div class="thumbnail">
+						<a href="https://github.com/imjoshuabailey" target="_blank">
+							<img id="img-spacing" src="assets/images/placeholder.jpg" alt="Coming soon" style="width: 100%"><div class="caption">Coming soon</div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	<hr>
+
+	<!--contact section html and media links-->
+		<div class="contact text-center" id="contact">
+			<p class="social"><strong>If you would like to contact me please visit one of my social media pages.</strong></p>
+
+			<form id="ajax-contact" method="post" action="">
+				<div class="field">
+					<label for="name">Name:</label>
+					<input class="name" type="text" id="name" name="name" required>
+				</div>
+				<div class="field">
+					<label for="email">Email:</label>
+					<input class="email" type="text" id="email" name="email" required>
+				</div>
+				<div class="field">
+					<label for="message">Message:</label>
+					<textarea class="message"></textarea>
+				</div>
+				<div>
+					<button class="submit" type="submit">Submit</button>
+				</div>
+			</form>
+			<!--facebook link-->
+			<a href="https://facebook.com/imjoshuabailey" class="fa fa-facebook fa-2x" target="_blank"></a>
+
+			<!--github link-->
+			<a href="https://github.com/imjoshuabailey" class="fa fa-github fa-2x" target="_blank"></a>
+
+			<!--twitter link-->
+			<a href="https://twitter.com/Imjoshuabailey" class="fa fa-twitter fa-2x" target="_blank"></a>
+
+			<!--copyright-->
+			<div>
+				<p class="text-muted text-center copy-right">&copy; Joshua Bailey 2018</p>
+			</div>
+		</div>
+	</body>
+</html>
