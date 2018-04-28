@@ -186,7 +186,10 @@ p.info{
 /*contact section styling*/
 .contact {
 	padding-top: 10%;
-	background: linear-gradient(#71757b, #94aed3);
+	background:url("../images/mymarina.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	Background-attachment: fixed;
 }
 /*media button styling*/
 .name{
