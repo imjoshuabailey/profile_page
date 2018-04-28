@@ -190,6 +190,7 @@ p.info{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	Background-attachment: fixed;
+	/*background: linear-gradient(#71757b, #94aed3);*/
 }
 /*media button styling*/
 .name{
